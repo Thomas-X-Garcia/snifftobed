@@ -1,13 +1,5 @@
 # snifftobed.py - Sniffles VCF to BED Converter
 
-[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![T2T Compatible](https://img.shields.io/badge/T2T-compatible-green.svg)](https://github.com/marbl/CHM13)
-[![Sniffles2 Compatible](https://img.shields.io/badge/Sniffles2-compatible-green.svg)](https://github.com/fritzsedlazeck/Sniffles)
-[![VCF Compatible](https://img.shields.io/badge/VCF-compatible-green.svg)](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
-[![SURVIVOR Compatible](https://img.shields.io/badge/SURVIVOR-compatible-green.svg)](https://github.com/fritzsedlazeck/SURVIVOR)
-[![bedtools Compatible](https://img.shields.io/badge/bedtools-compatible-green.svg)](https://bedtools.readthedocs.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -43,15 +35,15 @@ Traditional VCF to BED converters often lose important information during conver
 
 ## Key Features
 
-- ✅ **Three Output Formats**: Standard BED (default), Enhanced, and Original SURVIVOR
-- ✅ **Complete VCF Field Expansion**: Preserves REF, ALT, QUAL, FILTER, INFO, and FORMAT fields
-- ✅ **Bedtools Ready**: Default output works directly with bedtools intersect, closest, etc.
-- ✅ **SV Type Support**: Correctly handles DEL, DUP, INV, INS, TRA/BND, CNV
-- ✅ **Confidence Intervals**: Preserves CIPOS/CIEND information
-- ✅ **Multi-sample Support**: Processes multi-sample VCFs (expands first sample's FORMAT)
-- ✅ **Size Filtering**: Built-in min/max size filtering
-- ✅ **Progress Reporting**: Real-time progress updates for large files
-- ✅ **Error Handling**: Robust error handling with informative messages
+- **Three Output Formats**: Standard BED (default), Enhanced, and Original SURVIVOR
+- **Complete VCF Field Expansion**: Preserves REF, ALT, QUAL, FILTER, INFO, and FORMAT fields
+- **Bedtools Ready**: Default output works directly with bedtools intersect, closest, etc.
+- **SV Type Support**: Correctly handles DEL, DUP, INV, INS, TRA/BND, CNV
+- **Confidence Intervals**: Preserves CIPOS/CIEND information
+- **Multi-sample Support**: Processes multi-sample VCFs (expands first sample's FORMAT)
+- **Size Filtering**: Built-in min/max size filtering
+- **Progress Reporting**: Real-time progress updates for large files
+- **Error Handling**: Robust error handling with informative messages
 
 ## Installation
 
