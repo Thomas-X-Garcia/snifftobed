@@ -1,4 +1,4 @@
-# snifftobed.py - Universal VCF to BED Converter
+# snifftobed.py - Sniffles VCF to BED Converter
 
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![T2T Compatible](https://img.shields.io/badge/T2T-compatible-green.svg)](https://github.com/marbl/CHM13)
@@ -172,7 +172,7 @@ usage: snifftobed.py [-h] [--min-size MIN_SIZE] [--max-size MAX_SIZE]
                            [--version] [--debug]
                            vcf_file
 
-Universal VCF to BED converter with three output formats
+Sniffles VCF to BED converter with three output formats
 
 positional arguments:
   vcf_file              Input VCF file
@@ -872,7 +872,7 @@ SOFTWARE.
 If you use this tool in your research, please cite:
 
 ```
-snifftobed.py - Universal VCF to BED Converter
+snifftobed.py - Sniffles VCF to BED Converter
 Thomas X. Garcia, PhD, HCLD (2025)
 https://github.com/Thomas-X-Garcia/snifftobed
 ```
