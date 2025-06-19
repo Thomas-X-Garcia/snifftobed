@@ -908,7 +908,6 @@ For bug reports and feature requests, please open an issue on GitHub.
 
 For questions, suggestions, or issues:
 - GitHub Issues: https://github.com/Thomas-X-Garcia/snifftobed/issues
-- Email: your.email@example.com
 
 ---
 
